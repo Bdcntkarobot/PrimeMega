@@ -27,7 +27,7 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Hey I'm Prime Mega** 
+        f"""✨ **Hey I'm bdcntka 炎** 
 **Owner repo : [『TØNIC』](https://t.me/Bukan_guudlooking)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
