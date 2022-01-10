@@ -9,8 +9,8 @@ import traceback
 import PrimeMega.modules.sql.users_sql as sql
 from sys import argv
 from typing import Optional
-from telegram import __version__ as peler
-from platform import python_version as memek
+from telegram import __version__ as bdcntka
+from platform import python_version as bdcntka
 from PrimeMega import (
     ALLOW_EXCL,
     CERT_PATH,
@@ -81,18 +81,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Prime Mega](https://t.me/PrimeMegaBot)」───
+ ───「[bdcntka 炎](https://t.me/bdcntkarobot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+bdcntka 炎 a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
+
+👨‍💻 Managed By [Bross Astina](https://t.me/laffyuuby)
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ Add bdcntka 炎 to your group ➕️", url="t.me/bdcntkarobot?startgroup=true"
         ),
     ],
     [
@@ -112,7 +114,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/b9fa4e1360d0a872a3cd5.jpg"
+PRIME_IMG = "https://telegra.ph/file/75ab7e398ecdc3543e9a9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Bukan_guudlooking \
@@ -231,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Prime Mega!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm bdcntka 炎</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -362,7 +364,7 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Prime Mega*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *bdcntka 炎*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -370,7 +372,7 @@ def prime_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_PrimeMega's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for PrimeMega.",
+            "\n\n Click on button bellow to get basic help for bdcntka 炎.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -437,8 +439,8 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ PrimeMega support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
+            text="*๏ bdcntka 炎 support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on bdcntka 炎.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -457,8 +459,8 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for primeMega</b>\n"
-            f"\nHere Developers Making The PrimeMegaRobot",
+            text=f"<b>๏ Credis for bdcntka 炎</b>\n"
+            f"\nHere Developers Making The bdcntkarobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
