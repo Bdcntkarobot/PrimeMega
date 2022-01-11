@@ -27,12 +27,13 @@ This Bot is Created by bdcntka 炎, If your kanging this without fork at least g
 ```
 
 ### Contributors
-- [『TØNIC』 乂 ₭ILLΣR](https://github.com/Tonic990) : Prime Devs
-- [Arya](https://github.com/aryazakaria01) : Natsunagi Devs
-- [Xbarox](https://github.com/Xbaroxx)
+- [『TØNIC』 乂 ₭ILLΣR](https://github.com/Tonic990) : Owner
 
 ### Credit
 - Cutiepii
 - Skyzu Robot
 - Emiko Robot
 - Natsunagi Nagisa
+- Prime Mega
+- bdcntka 炎
+
