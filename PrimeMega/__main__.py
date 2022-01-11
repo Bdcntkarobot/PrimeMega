@@ -100,8 +100,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Support", url="https://t.me/PrimeSupportGroup"
         ),
-        InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
+        InlineKeyboardButton(text="TryInline", switch_inline_query_current_chat=""
         ),
     ],
     [
@@ -114,7 +113,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/75ab7e398ecdc3543e9a9.jpg"
+PRIME_IMG = "https://telegra.ph/file/d3a93a9585e6d18d1ccc2.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @Bukan_guudlooking \
