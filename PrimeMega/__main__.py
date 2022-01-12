@@ -9,8 +9,8 @@ import traceback
 import PrimeMega.modules.sql.users_sql as sql
 from sys import argv
 from typing import Optional
-from telegram import __version__ as bdcntka
-from platform import python_version as bdcntka
+from telegram import __version__ as bross
+from platform import python_version as astina
 from PrimeMega import (
     ALLOW_EXCL,
     CERT_PATH,
@@ -116,7 +116,7 @@ Click on the button bellow to get description about specifics command."""
 PRIME_IMG = "https://telegra.ph/file/d3a93a9585e6d18d1ccc2.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Bukan_guudlooking \
+ You can support the project by contacting @laffyuuby \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -792,7 +792,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi friends, I'm alive.",
+                "👋 Hi friends, I'm bdcntka 炎.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
