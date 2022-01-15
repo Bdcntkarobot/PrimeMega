@@ -126,7 +126,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[ᴘʀɪᴍᴇ ᴍᴇɢᴀ](https://t.me/bdcntkarobot):**
+**[bdcntka 炎](https://t.me/bdcntkarobot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
