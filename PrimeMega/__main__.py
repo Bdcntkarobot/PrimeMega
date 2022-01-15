@@ -370,7 +370,7 @@ def prime_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_PrimeMega's licensed under the GNU General Public License v3.0_"
+            "\n\n_bdcntka 炎's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for bdcntka 炎.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -466,6 +466,7 @@ def prime_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
                     InlineKeyboardButton(text="x~b", url="t.me/Xbarok"),
+                    InlineKeyboardButton(text="ʙʀᴏss 炎", url="t.me/Laffyuuby"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -792,7 +793,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi friends, I'm bdcntka 炎.",
+                "👋 Hi Guys, I'm bdcntka 炎",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
